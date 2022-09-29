@@ -22,7 +22,7 @@ import './Display.css';
           <div>
             
           <h1 className='title-name'> <FontAwesomeIcon className='icon' icon={faHeartCircleCheck}></FontAwesomeIcon>FITNESS CLUB</h1>
-          
+
           <div>
           {
             items.map(item => <Item name={item.name} img={item.picture}></Item>)
