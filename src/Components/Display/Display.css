@@ -1,27 +1,44 @@
 
  .display-container{
     display: grid;
-    grid-template-columns: 9fr 3fr;
-    border: 3px solid red;
+    grid-template-columns: 4fr 1fr;
+    border: 3px solid rgb(255, 123, 0);
+
     
+ }
+ .details-container{
+    display: grid;
+    grid-template-columns:repeat( 3,1fr);
+    grid-gap: 30px;
+   
+    border: 3px solid green;
+    padding-left: 100px;
+    margin-right: 50px;
  }
  .title-container{
     display: flex;
-   border: 3px solid red;
    
+ 
+  
     
  }
  .title-name{
-   padding-right: 500px;
+   padding-right: 700px;
+   padding-left:100px ;
     margin-top: 80px;
     color: cornflowerblue;
-    border: 3px solid red;
+    border: 3px solid #dd02d2;
+    margin-right: 50px;
+ }
+ .title2{
+   padding-left:100px ;
  }
  .icon{
     padding-right: 20px;
     color: cornflowerblue;
  }
  
- .details{
-    background-color: brown;
+ .cart{
+    background-color:rgb(155, 190, 255);
+    
  }

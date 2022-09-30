@@ -8,8 +8,11 @@
     return (
         <div className='details2' >
             <img  src={props.img} alt="" />
-            <h3>Name:{props.name}</h3>
+            <h3>{props.name}</h3>
+            <p>Time required :<strong>{props.time}</strong></p>
+            <button className='btn'>Add To List</button>
         </div>
+        
     );
   };
   

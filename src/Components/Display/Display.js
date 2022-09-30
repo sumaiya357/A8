@@ -4,6 +4,7 @@
  import {  faHeartCircleCheck } from '@fortawesome/free-solid-svg-icons'
  import Item from '../Item/Item';
 import './Display.css';
+import Cart from '../Cart/Cart';
 
  
  const Display = () => {
@@ -19,20 +20,22 @@ import './Display.css';
     return (
 
         <div className='display-container'>
-          <div>
+          <div >
             
           <h1 className='title-name'> <FontAwesomeIcon className='icon' icon={faHeartCircleCheck}></FontAwesomeIcon>FITNESS CLUB</h1>
-
-          <div>
+          <h3 className='title2'>Choose Your Today's Workout Activity</h3>
+          <div className='details-container'>
           {
-            items.map(item => <Item name={item.name} img={item.picture}></Item>)
+            items.map(item => <Item name={item.name} img={item.picture} time={item.time}></Item>)
            }
+          
           </div>
+          
           </div>
 
-          <div className='details'>
-            <h3>sumaiya</h3>
-          </div>
+          <div className='cart'>
+           <Cart></Cart>
+          </div> 
         </div>
     );
  };

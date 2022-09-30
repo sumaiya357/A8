@@ -2,44 +2,44 @@
  [
     {
       "_id": "6335f6e6ca40b2b9fa75c9e5",
-      "picture": "https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "picture": "https://www.mensjournal.com/wp-content/uploads/mf/the_15_most_important_exercises_for_men_main.jpg?w=700&quality=40&strip=all",
       "age": 26,
-      "time": "<SyntaxError: Invalid or unexpected token>",
-      "name": "Livingston}"
+      "time": "10s",
+      "name": "Deadlift"
     },
     {
       "_id": "6335f6e605341923267fc223",
-      "picture": "https://images.pexels.com/photos/5039659/pexels-photo-5039659.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "picture": "https://www.mensjournal.com/wp-content/uploads/mf/dumbbell-bench-press-chest-weights-main.jpg?w=700&quality=86&strip=all",
       "age": 37,
-      "time": "<SyntaxError: Invalid or unexpected token>",
-      "name": "Estelle}"
+      "time": "30s",
+      "name": "Bench Press"
     },
     {
       "_id": "6335f6e667c66032260ce8f9",
-      "picture": "https://images.pexels.com/photos/3621124/pexels-photo-3621124.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "picture": "https://www.mensjournal.com/wp-content/uploads/mf/swiss_ball_rollout_main.jpg?w=700&quality=86&strip=all",
       "age": 35,
-      "time": "<SyntaxError: Invalid or unexpected token>",
-      "name": "Pruitt}"
+      "time": "30s",
+      "name": "Swiss Ball Rollout"
     },
     {
       "_id": "6335f6e6665fb3719cb5292b",
-      "picture": "https://images.pexels.com/photos/260352/pexels-photo-260352.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "picture": "https://www.mensjournal.com/wp-content/uploads/mf/15-best-exercises-squat.jpg?w=400&quality=86&strip=all",
       "age": 22,
-      "time": "<SyntaxError: Invalid or unexpected token>",
-      "name": "Margaret}"
+      "time": "55s",
+      "name": "Back squat"
     },
     {
       "_id": "6335f6e65335d7391bb2810f",
-      "picture": "https://images.pexels.com/photos/221247/pexels-photo-221247.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "picture": "https://www.mensjournal.com/wp-content/uploads/mf/kb_swing_main.jpg?w=700&quality=86&strip=all",
       "age": 26,
-      "time": "<SyntaxError: Invalid or unexpected token>",
-      "name": "Phoebe}"
+      "time": "40s",
+      "name": "Kettlebell swing"
     },
     {
       "_id": "6335f6e6d450fbcc2b7b51cd",
-      "picture": "https://images.pexels.com/photos/221210/pexels-photo-221210.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "picture": "https://www.mensjournal.com/wp-content/uploads/mf/good-morning-bands-main.jpg?w=700&quality=86&strip=all",
       "age": 31,
-      "time": "<SyntaxError: Invalid or unexpected token>",
-      "name": "Davidson}"
+      "time": "20s",
+      "name": "Banded Good Morning"
     }
   ]
