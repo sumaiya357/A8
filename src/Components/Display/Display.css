@@ -18,9 +18,6 @@
  }
  .title-container{
     display: flex;
-   
- 
-  
     
  }
  .title-name{
@@ -44,14 +41,177 @@
     
  }
 
- @media screen and (max-width:992px) {
+ 
+
+.myCart{
+
+   width: 290px;
+   /* position: fixed; */
+   border: 5px solid rgb(187, 255, 0);
    
+}
+.cart{
+   display: flex;
+   border: 2px solid rgb(25, 0, 255);
+   
+  
+}
+
+.info{
+   padding-left: 15px;
+   padding-top: 15px;
+}
+.cart img{
+   
+    margin-left: 15px;
+    margin-top: 20px;
+    border-radius: 120px;
+    width: 80px;
+    height: 80px;
+}
+
+.info2{
+   display: flex;
+   /* border: 3px solid orangered; */
+   border-radius: 15px;
+   margin-top: 40px;
+   margin-left: 15px;
+   margin-right: 3px;
+   background-color: rgb(220, 222, 243);
+   color: rgb(112, 111, 111);
+width: 90%;
+}
+.info2 .weight{
+   /* border: 4px solid green; */
+   padding: 20px;
+   padding-top: 40px;
+
+  
+}
+.info2 .weight span{
+   font-weight: 1000;
+   font-size: 25px;
+   color: rgb(34, 32, 32);
+}
+.span{
+  
+   color: rgb(31, 27, 27);
+}
+
+.info2 .height{
+   /* border: 4px solid blue; */
+   padding: 20px;
+   padding-top: 40px;
+}
+.info2 .height span{
+   font-weight: 1000;
+   font-size: 25px;
+   color: rgb(34, 32, 32);
+}
+
+ 
+.info2 .age span{
+   font-weight: 1000;
+   font-size: 25px;
+   color: rgb(34, 32, 32);
+}
+.info2 .age{
+
+   padding: 20px;
+   /* border: 4px solid pink; */
+   padding-top: 40px;
+}
+
+.info3{
+   display: flex;
+   /* border: 3px solid orangered; */
+   border-radius: 15px;
+   margin-top: 40px;
+   margin-left: 15px;
+   margin-right: 3px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   background-color: rgb(220, 222, 243);
+   color: rgb(112, 111, 111);
+width: 90%;
+}
+.info3 button{
+   border: none;
+   border-radius: 30px;
+   padding: 10px;
+   margin-left: 20px;
+   
+}
+.break{
+   margin-left: 25px;
+   margin-top: 35px;
+}
+
+
+/* -----exercise details ----*/
+
+.btn2{
+   background-color: cornflowerblue;
+   padding: 10px;
+   font-size: 20px;
+   width: 80%;
+   border: none;
+   color: white;
+   border-radius: 7px;
+   margin-top: 40px;
+   margin-left: 30px;
+ }
+ .exercise-details  h2{
+   margin-left: 25px;
+}
+.info4{
+  
+   /* border: 3px solid orangered; */
+   border-radius: 15px;
+   margin-top: 40px;
+   margin-left: 15px;
+   margin-right: 3px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   background-color: rgb(220, 222, 243);
+   color: rgb(112, 111, 111);
+width: 90%;
+}
+.exercise{
+   display: flex;
+   padding-left: 10px;
+}
+.exercise h4{
+   padding-left: 30px;
+   /* border: 3px solid orangered; */
+   margin-top: 0px;
+}
+.break-time{
+   display: flex;
+   padding-left: 10px;
+}
+.break-time h4{
+   padding-left: 50px;
+   /* border: 3px solid orangered; */
+   margin-top: 0px;
+
+}
+
+ /* @media screen and (max-width:992px) {
+   
+   .details-container{
+     
+      grid-template-columns:repeat( 1,1fr);
+   }
  .details-container{
    
    grid-template-columns:repeat( 1,1fr);
+   padding-right: 0px;
+   padding-left:5px ;
+   /* border: 7px solid #dd02d2;  */
+ /* } */
+ /* .title-name,.title2{
+   padding-right: 0px;
+   padding-left:5px ;
  }
- .title-name{
-   padding-right: 100px;
-   padding-left:50px ;
- }
-}
+} */

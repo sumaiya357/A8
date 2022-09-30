@@ -25,3 +25,12 @@
    border-radius: 7px;
 
  }
+ @media screen and (max-width:992px) { 
+  .details2{
+    width: 350px;
+    border: 7px solid #dd02d2; 
+}
+.btn{
+  width: 50%;
+
+}}
