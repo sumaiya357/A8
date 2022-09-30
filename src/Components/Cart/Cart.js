@@ -59,18 +59,20 @@
             </div>
 
             {/* ------------Exercise Details----------*/}
-            <div >
+            <div className='exercise-details' >
 
-               <h2>Exercise Details</h2>
+                 <h2>Exercise Details</h2>
 
                 <div className='info4'>
-                  <h3 className='exercise'>Exercise Time <h4> <span>0</span> seconds</h4></h3>
-                  <h3 className='break-time'>Break Time <h4> <span>0</span> seconds</h4></h3>
-
+                     <h3 className='exercise'>Exercise Time <h4> <span>0</span> seconds</h4></h3>
+                     <h3 className='break-time'>Break Time <h4> <span>0</span> seconds</h4></h3>
                 </div>
             </div>
 
-            {/* activity cpmlete */}
+            {/*-------- Activity complete----- */}
+            <div >
+               <button className='btn2'>Activity Completed</button>
+            </div>
          </div>
        
     );

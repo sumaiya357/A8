@@ -2,7 +2,7 @@
  .display-container{
     display: grid;
     grid-template-columns: 4fr 1fr;
-    border: 3px solid rgb(255, 123, 0);
+    /* border: 3px solid rgb(255, 123, 0); */
 
     
  }
@@ -11,9 +11,10 @@
     grid-template-columns:repeat( 3,1fr);
     grid-gap: 30px;
    
-    border: 3px solid green;
+    /* border: 3px solid green; */
     padding-left: 100px;
     margin-right: 50px;
+    padding-bottom: 80px;
  }
  .title-container{
     display: flex;
@@ -27,7 +28,7 @@
    padding-left:100px ;
     margin-top: 80px;
     color: cornflowerblue;
-    border: 3px solid #dd02d2;
+    /* border: 3px solid #dd02d2; */
     margin-right: 50px;
  }
  .title2{
@@ -42,3 +43,15 @@
     background-color:rgb(155, 190, 255);
     
  }
+
+ @media screen and (max-width:992px) {
+   
+ .details-container{
+   
+   grid-template-columns:repeat( 1,1fr);
+ }
+ .title-name{
+   padding-right: 100px;
+   padding-left:50px ;
+ }
+}
