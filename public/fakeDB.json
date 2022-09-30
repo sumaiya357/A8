@@ -41,5 +41,26 @@
       "age": 31,
       "time": "20s",
       "name": "Banded Good Morning"
+    },
+    {
+      "_id": "6335f6e6ca40b2b9fa75c9e5",
+      "picture": "https://www.mensjournal.com/wp-content/uploads/mf/the_15_most_important_exercises_for_men_main.jpg?w=700&quality=40&strip=all",
+      "age": 26,
+      "time": "10s",
+      "name": "Deadlift"
+    },
+    {
+      "_id": "6335f6e605341923267fc223",
+      "picture": "https://www.mensjournal.com/wp-content/uploads/mf/dumbbell-bench-press-chest-weights-main.jpg?w=700&quality=86&strip=all",
+      "age": 37,
+      "time": "30s",
+      "name": "Bench Press"
+    },
+    {
+      "_id": "6335f6e667c66032260ce8f9",
+      "picture": "https://www.mensjournal.com/wp-content/uploads/mf/swiss_ball_rollout_main.jpg?w=700&quality=86&strip=all",
+      "age": 35,
+      "time": "30s",
+      "name": "Swiss Ball Rollout"
     }
   ]

@@ -3,6 +3,9 @@
 .myCart{
 
     width: 290px;
+    /* position: fixed; */
+    /* border: 5px solid rgb(187, 255, 0); */
+    
 }
 .cart{
     display: flex;
@@ -97,6 +100,6 @@
     
 }
 .break{
-    margin-left: 15px;
-    margin-bottom: 5px;
+    margin-left: 25px;
+    margin-top: 35px;
 }

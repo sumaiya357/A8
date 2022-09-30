@@ -34,26 +34,29 @@
                      </div>
                
                </div>
+               {/* ----------BREAK DETAILS-------*/}
                <div>
                   <h3 className='break'>Break Time</h3>
                   
-               <div className='info3'>
-                  <div className='s1'>
-                     <button>10s</button>
-                     </div>
-                  <div className='s2'>
-                  <button>20s</button>
-                     
-                     </div>
-                  <div className='s3'>
-                  <button>30s</button>
-                     </div>
-                  <div className='s4'>
-                  <button>40s</button>
-                     </div>
-               
-               </div>
-               </div>
+                <div className='info3'>
+                     <div className='s1'>
+                        <button>10s</button>
+                        </div>
+                     <div className='s2'>
+                     <button>20s</button>
+                        
+                        </div>
+                     <div className='s3'>
+                     <button>30s</button>
+                        </div>
+                     <div className='s4'>
+                     <button>40s</button>
+                        </div>
+                  </div>
+            </div>
+            <div>
+
+            </div>
          </div>
        
     );
