@@ -8,6 +8,8 @@
  const Cart = () => {
     return (
         <div className='myCart'>
+
+            {/*-----------About Me----------- */}
            <div className='cart'>
               <img className='img' src={img} alt="" />
                   <div className='info'>
@@ -18,7 +20,7 @@
            </div>
            
              
-
+              {/* ----------about me details------- */}
                <div className='info2'>
                   <div className='weight'>
                      <span>65</span>kg
@@ -34,6 +36,7 @@
                      </div>
                
                </div>
+
                {/* ----------BREAK DETAILS-------*/}
                <div>
                   <h3 className='break'>Break Time</h3>
@@ -54,9 +57,20 @@
                         </div>
                   </div>
             </div>
-            <div>
 
+            {/* ------------Exercise Details----------*/}
+            <div >
+
+               <h2>Exercise Details</h2>
+
+                <div className='info4'>
+                  <h3 className='exercise'>Exercise Time <h4> <span>0</span> seconds</h4></h3>
+                  <h3 className='break-time'>Break Time <h4> <span>0</span> seconds</h4></h3>
+
+                </div>
             </div>
+
+            {/* activity cpmlete */}
          </div>
        
     );
