@@ -6,7 +6,7 @@
   const Item = (props) => {
     const {img, name,time} =props;
     
-    console.log(props)
+    // console.log(props)
   
     return (
         <div className='details2' >

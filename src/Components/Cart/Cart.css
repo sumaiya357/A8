@@ -1,4 +1,4 @@
-/* 
+
 
 .myCart{
 
@@ -106,7 +106,47 @@
 
 
 /* -----exercise details ----*/
+.exercise-details  h2{
+    margin-left: 25px;
+}
+.info4{
+   
+    /* border: 3px solid orangered; */
+    border-radius: 15px;
+    margin-top: 40px;
+    margin-left: 15px;
+    margin-right: 3px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(220, 222, 243);
+    color: rgb(112, 111, 111);
+ width: 90%;
+}
+.exercise{
+    display: flex;
+    padding-left: 10px;
+}
+.exercise h4{
+    padding-left: 30px;
+    /* border: 3px solid orangered; */
+    margin-top: 0px;
+}
+.exercise span{
+    margin-left: 20px;
+}
+.break-time{
+    display: flex;
+    padding-left: 10px;
+}
+.break-time span{
+    margin-left: 40px;
+}
+.break-time h4{
+    padding-left: 50px;
+    /* border: 3px solid orangered; */
+    margin-top: 0px;
 
+}
 .btn2{
     background-color: cornflowerblue;
     padding: 10px;
@@ -117,13 +157,13 @@
     border-radius: 7px;
     margin-top: 40px;
     margin-left: 30px;
-  } */
+  }
 
   @media screen and (max-width:992px) {
    
     .cart{
 
-        width: 222px;
+        width: 220px;
         margin-right: 100px;
     }
     .info{
@@ -132,7 +172,7 @@
     }
      .cart img{
         
-         margin-left: 4px;
+         margin-left: 8px;
          margin-top: 20px;
          border-radius: 120px;
          width: 50px;
