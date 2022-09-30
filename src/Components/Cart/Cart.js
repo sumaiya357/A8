@@ -35,7 +35,7 @@
                
                </div>
                <div>
-                  <h3 className=''>Break Time</h3>
+                  <h3 className='break'>Break Time</h3>
                   
                <div className='info3'>
                   <div className='s1'>
