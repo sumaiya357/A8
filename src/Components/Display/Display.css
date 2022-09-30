@@ -42,6 +42,22 @@
     
  }
 
+ .ques{
+   padding-left: 60px;
+   padding-top: 40px;
+   padding-bottom: 30px;
+   background-color: rgb(155, 190, 255);
+   margin-left: 100px;
+   margin-right: 70px;
+   margin-bottom: 30px;
+   border-radius: 20px;
+ }
+ .ques p{
+   font-size: 25px;
+ }
+ .ques h3{
+   font-size: 30px;
+ }
  @media screen and (max-width:992px) {
    
    .details-container{

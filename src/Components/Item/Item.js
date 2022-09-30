@@ -14,7 +14,7 @@
             <h3>{name}</h3>
             <p>Time required : <strong>{time}</strong>s</p>
 
-            <button onClick={()=> {props.add(props.time)}} className='btn'>Add To List</button>
+            <button onClick={()=> {props.addExerciseTime(props.time)}} className='btn'>Add To List</button>
         </div>
         
     );

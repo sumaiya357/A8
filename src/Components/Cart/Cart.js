@@ -1,11 +1,17 @@
 
 
- import React, { useState } from 'react';
+ import React, { useEffect, useState } from 'react';
 
  import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
  import {  faArrows} from '@fortawesome/free-solid-svg-icons'
  import img from '../../images/img.jpg'
  import './Cart.css'
+import { addToDb, getStoredCart } from '../../utilities/fakedb';
+// import { toast } from 'react-toastify';
+// import 'react-toastify/dist/react-toastify.css'
+
+
+
 
 
  const Cart = (props) => {
@@ -14,23 +20,27 @@
    const {cart} =props;
    // console.log(cart)
  
-//    const [cart2, setCart2] = useState([])
-   
-//   const addBreakTime=(s1)=>{
-//       const newCart2=[...cart2];
-//       setCart2(newCart2)
-//    }
-//     let seconds2=0;
-//     for(const sec2 of cart2){
-//       // console.log(sec)
-//         seconds2= seconds2 ;
-      
-//    }
 
-   const [count, setcount] = useState([])
+
+const [breakTime, setbreakTime] = useState([])
+
+   useEffect(()=>{
+      const storedCart = getStoredCart();
+      // console.log(storedCart)
+
+      for(const sec in storedCart){
+         // console.log(sec)
+         const addedSec = breakTime.find(second => second.num ===sec )
+         console.log(addedSec)
+      }
+   },[])
+  
    
-   const changeBreak=()=>{
-      setcount(count)
+   const  handleBreakTime=(breakTime)=>{
+      setbreakTime(breakTime);
+      addToDb(breakTime)
+      
+      // console.log(count)
    }
     
    let seconds=0;
@@ -38,6 +48,10 @@
       // console.log(sec)
         seconds= seconds +sec ;
       
+   }
+
+   const notify =() =>{
+      console.log('toast notify')
    }
 
 
@@ -79,17 +93,20 @@
                   
                 <div className='info3'>
                      <div>
-                        <button onClick={changeBreak} >10</button>
+                     <button  onClick={()=>handleBreakTime(10)}><span className='s2'>10</span>s</button>
                         </div>
                      <div >
-                     <button><span className='s2'>20</span>s</button>
+                       
+                     <button  onClick={()=>handleBreakTime(20)}><span className='s2'>20</span>s</button>
                         
                         </div>
                      <div >
-                     <button><span className='s3'>30</span> s</button>
+                       
+                     <button  onClick={()=>handleBreakTime(30)}><span className='s3'>30</span>s</button>
                         </div>
                      <div className='s4'>
-                     <button><span>40</span>s</button>
+                      
+                     <button  onClick={()=>handleBreakTime(40)}><span>40</span>s</button>
                         </div>
                   </div>
             </div>
@@ -101,13 +118,13 @@
 
                 <div className='info4'>
                      <h3 className='exercise'>Exercise Time <span>{seconds}</span> seconds</h3>
-                     <h3 className='break-time'>Break Time  <span>{count}</span> seconds</h3>
+                     <h3 className='break-time'>Break Time  <span>{breakTime}</span> seconds</h3>
                 </div>
             </div>
 
             {/*-------- Activity complete----- */}
             <div >
-               <button className='btn2'>Activity Completed</button>
+               <button onClick={notify} className='btn2'>Activity Completed</button>
             </div>
          </div>
        
